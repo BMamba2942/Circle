@@ -31,5 +31,16 @@ public class Run_Circle {
 		 *
 		 * We are done ! Yay!!!
 		 */
+
+		
+		Circle c3 = new Circle(2.0, "blue");
+			System.out.println("Radius is " + c3.getRadius()+ " Color is " + c3.getColor() + " Area is "+ c3.getArea());
+			/*
+			 * Constructor 3 needed 2 different data values, so we gave it to them
+			 * 
+			 * 
+			 * We are done ! Yay!!!
+			 */
+
 	}
 }
