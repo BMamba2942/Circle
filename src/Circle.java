@@ -38,7 +38,7 @@ public class Circle {   //whatever we call the file, this class must be the same
 		/*Same as above, now we give it two new variables
 		Here we used this. so we could understand how it works:)
 		Really, it's best to call the variables the same, but since we have only two
-		it's okay to call them r & c, but when you have A LOt of variables, r & c could 
+		it's okay to call them r & c, but when you have a lot of variables, r & c could 
 		mean many things*/
 	}
 
