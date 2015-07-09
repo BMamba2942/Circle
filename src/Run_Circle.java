@@ -6,7 +6,7 @@ public class Run_Circle {
 		 it an appropriate name. Don't want to call it 'Circle spongebob = new Circle();
 		 We call it c1 because it is the first constructor that we will use!
 		 */
-		Circle c1 = Circle();
+		Circle c1 = new Circle();
 		System.out.println("Radius is " + c1.getRadius()+ " Color is " + c1.getColor() + " Area is "+ c1.getArea());
 		/*
 		 A system println is done.
@@ -22,8 +22,9 @@ public class Run_Circle {
 		 * Observe, Constructor 2 needed data for it's double r. Here, we tell it (give r value 2.0)
 		 * r now equals 2.0, and that means that radius now equals 2.0!
 		 */
+		 String color = "Blue";
 		
-		Circle c3 = new Circle(2.0, 'blue');
+		Circle c3 = new Circle(2.0, color);
 			System.out.println("Radius is " + c3.getRadius()+ " Color is " + c3.getColor() + " Area is "+ c3.getArea());
 			/*
 			 * Constructor 3 needed 2 different data values, so we gave it to them

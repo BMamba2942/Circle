@@ -5,7 +5,7 @@
 what is going on :) */
 
 //Define the class
-public ass Circle {   //whatever we call the file, this class must be the same
+public class Circle {   //whatever we call the file, this class must be the same
 	
 	private double radius;
 	private String color;
