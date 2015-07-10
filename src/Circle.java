@@ -19,7 +19,7 @@ public class Circle {   //whatever we call the file, this class must be the same
 	/* Actually, you have to ;) */
 
 	public Circle(){   //~~~1ST CONSTRUCTOR~~~
-		radius = 1.0;
+		radius = 10.0;
 		color = "red";
 		/*we assigned variables at the top, now for this constructor, we
 		are manually putting values in it*/
@@ -42,8 +42,6 @@ public class Circle {   //whatever we call the file, this class must be the same
 		mean many things*/
 	}
 
-
-
 	//Public methods. Methods RETURN a value.
 	public double getRadius(){
 		return radius;
@@ -60,6 +58,9 @@ public class Circle {   //whatever we call the file, this class must be the same
 		return radius*radius*Math.PI;
 		//here, we return a mathematical expression
 	}
+    public double getCircumference(){
+        return 2 * Math.PI * radius;
+    }
 
 	//let's head over to the Run_Circle.java
 }
