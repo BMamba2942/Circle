@@ -42,8 +42,6 @@ public class Circle {   //whatever we call the file, this class must be the same
 		mean many things*/
 	}
 
-
-
 	//Public methods. Methods RETURN a value.
 	public double getRadius(){
 		return radius;
@@ -60,6 +58,9 @@ public class Circle {   //whatever we call the file, this class must be the same
 		return radius*radius*Math.PI;
 		//here, we return a mathematical expression
 	}
+    public double getCircumference(){
+        return 2 * Math.PI * radius;
+    }
 
 	//let's head over to the Run_Circle.java
 }

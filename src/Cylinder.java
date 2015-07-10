@@ -23,7 +23,7 @@ public class Cylinder extends Circle{                                           
 
     public double getVolume(){
         double volume;
-        volume = (double) getArea*height;                                       /* Circle's attributes & methods are inherited by Cylinder */
+        volume = (double) getArea()*height;                                       /* Circle's attributes & methods are inherited by Cylinder */
         return volume;
     }
 }
