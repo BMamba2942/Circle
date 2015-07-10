@@ -19,7 +19,7 @@ public class Circle {   //whatever we call the file, this class must be the same
 	/* Actually, you have to ;) */
 
 	public Circle(){   //~~~1ST CONSTRUCTOR~~~
-		radius = 1.0;
+		radius = 10.0;
 		color = "red";
 		/*we assigned variables at the top, now for this constructor, we
 		are manually putting values in it*/
