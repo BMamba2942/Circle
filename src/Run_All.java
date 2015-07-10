@@ -27,6 +27,7 @@ public class Run_All {
 		 */
 		//Cylinder
 		Cylinder cy1 = new Cylinder();
-        System.out.println("\nRadius of cylinder is " + cy1.getRadius()+ " Color is " + cy1.getColor() + " Area is "+ cy1.getArea() + " Volume is " + cy1.getVolume());
+        System.out.println("\nRadius of cylinder is: " + cy1.getRadius()+ "\nColor is: " + cy1.getColor() + "\nArea is "+ cy1.getArea() + "\nVolume is " + cy1.getVolume());
+        System.out.println("Surface Area of cylinder is " + cy1.getSurfaceArea());
 	}
 }

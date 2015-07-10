@@ -26,4 +26,8 @@ public class Cylinder extends Circle{                                           
         volume = (double) getArea()*height;                                       /* Circle's attributes & methods are inherited by Cylinder */
         return volume;
     }
+
+    public double getSurfaceArea(){
+        return getCircumference() * (super.getRadius() + height);
+    }
 }
