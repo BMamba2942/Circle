@@ -28,6 +28,6 @@ public class Cylinder extends Circle{                                           
     }
 
     public double getSurfaceArea(){
-        return getCircumference() * (super.getRadius() + height);
+        return getCircumference() * (getRadius() + height);
     }
 }
